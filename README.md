@@ -21,10 +21,10 @@
 
 12/04
 - [복제 (노휘겸)](https://github.com/KWSStudy/Mongodb/wiki/복제)
-- [샤딩 (노휘겸)](https://github.com/KWSStudy/Mongodb/wiki/샤딩)
-- [배포와 관리 (노휘겸)](https://github.com/KWSStudy/Mongodb/wiki/배포와 관리)
+- [샤딩(이지훈)](https://github.com/KWSStudy/Mongodb/wiki/샤딩)
 
 12/11
+- [배포와 관리 (미정)](https://github.com/KWSStudy/Mongodb/wiki/배포와 관리)
 - [설계 패턴 (미정)](https://github.com/KWSStudy/Mongodb/wiki/설계 패턴)
 - [GridFS (미정)](https://github.com/KWSStudy/Mongodb/wiki/GridFS)
 
