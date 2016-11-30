@@ -25,6 +25,9 @@ public class MongoDbApplicationTests {
 	}
 
 
-
+	@Test
+	public void testMetohd(){
+		System.out.println("zzzzzzzzzzzzzzzzzzzz");
+	}
 
 }
