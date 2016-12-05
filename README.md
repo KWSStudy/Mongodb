@@ -24,9 +24,6 @@
 - [샤딩(이지훈)](https://github.com/KWSStudy/Mongodb/wiki/샤딩)
 
 12/11
-- [배포와 관리 (미정)](https://github.com/KWSStudy/Mongodb/wiki/배포와 관리)
-- [설계 패턴 (미정)](https://github.com/KWSStudy/Mongodb/wiki/설계 패턴)
-- [GridFS (미정)](https://github.com/KWSStudy/Mongodb/wiki/GridFS)
-
-12/18
+- [배포와 관리 (박민규)](https://github.com/KWSStudy/Mongodb/wiki/배포와 관리)
+- [GridFS (박민규)](https://github.com/KWSStudy/Mongodb/wiki/GridFS)
 - [번외 레디스 (이지훈)](https://github.com/KWSStudy/Mongodb/wiki/레디스)
