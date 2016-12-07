@@ -36,7 +36,7 @@ public class MongoConnector {
 			}
 		}else{
 			FindIterable<Document> numbers = collection.find();
-			Iterator<Document> numbersItor = numbers.iterator(); 
+			Iterator<Document> numbersItor = numbers.iterator();
 			while(numbersItor.hasNext()){
 				Document docNum = numbersItor.next();
 				System.out.println(docNum);
@@ -58,8 +58,8 @@ public class MongoConnector {
 	 
 	        GridFSUploadOptions options = new GridFSUploadOptions()
 	                .metadata(Document.parse(metadata.toJson()));
-	 
-	        InputStream sourceStream = MongoConnector.class.getResourceAsStream(filename);
+
+			InputStream sourceStream = MongoConnector.class.getClassLoader().getResourceAsStream(filename);
 	         
 	        ObjectId _id = gridFSBucket.uploadFromStream(
 	                filename, 
@@ -70,7 +70,7 @@ public class MongoConnector {
 	        
 		}else{
 			GridFSBucket downloadGridFs = GridFSBuckets.create(database,bucket);
-			downloadGridFs.downloadToStream(downloadGridFs.find(Filters.eq("filename", filename)).first().getObjectId(), new FileOutputStream(new File("d:/mongo.JPG")));
+			downloadGridFs.downloadToStream(downloadGridFs.find(Filters.eq("filename", filename)).first().getObjectId(), new FileOutputStream(new File("mongo.JPG")));
 		
 			/*GridFSDownloadStream gds = downloadGridFs.openDownloadStream(downloadGridFs.find(Filters.eq("filename", filename)).first().getObjectId());
 			OutputStream os =  new FileOutputStream(new File("d:/mongo.JPG"));
